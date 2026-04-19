@@ -3,24 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="SOS Badante — Assistenza domiciliare professionale a Novi Ligure, Alessandria e Tortona. Badante a ore, convivente, notturna e post-operatoria." />
-  <title>SOS Badante — Assistenza Domiciliare</title>
+  <title>Assistenza Anziani Alessandria — Cure Domiciliari e Badanti a Novi Ligure, Alessandria, Tortona</title>
+  <meta name="description" content="Assistenza anziani ad Alessandria, Novi Ligure e Tortona. Servizi di assistenza domiciliare professionale e ricerca badanti qualificate. Contattaci subito." />
+  <meta name="keywords" content="assistenza anziani Alessandria, badante Alessandria, assistenza domiciliare Novi Ligure, badante Tortona, cure domiciliari Alessandria" />
+  <link rel="canonical" href="https://assistenzaanzianialessandria.it/" />
+  <meta property="og:title" content="Assistenza Anziani Alessandria" />
+  <meta property="og:description" content="Assistenza domiciliare e badanti qualificate ad Alessandria, Novi Ligure e Tortona." />
+  <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Assistenza Anziani Alessandria",
+    "description": "Servizi di assistenza domiciliare e ricerca badanti ad Alessandria, Novi Ligure e Tortona",
+    "telephone": "+393460007334",
+    "email": "ephadita@protonmail.com",
+    "areaServed": ["Alessandria", "Novi Ligure", "Tortona"],
+    "serviceType": ["Assistenza domiciliare", "Badante a ore", "Badante convivente"]
+  }
+  </script>
 </head>
 <body>
 
-  <!-- NAVBAR -->
   <header class="navbar">
     <div class="container nav-inner">
-      <a href="#" class="logo">SOS<span>Badante</span></a>
+      <a href="index.html" class="logo">Assistenza<span>Anziani</span><em>AL</em></a>
       <nav class="nav-links">
-        <a href="#servizi">Servizi</a>
-        <a href="#perche-noi">Chi siamo</a>
-        <a href="#aree">Aree</a>
-        <a href="#richiesta">Richiedi</a>
+        <a href="assistenza-domiciliare.html">Assistenza domiciliare</a>
+        <a href="badante.html">Ricerca badante</a>
         <a href="#contatti" class="btn btn-outline">Contattaci</a>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Menu">
@@ -28,364 +42,93 @@
       </button>
     </div>
     <div class="mobile-menu" id="mobileMenu">
-      <a href="#servizi" onclick="closeMobileMenu()">Servizi</a>
-      <a href="#perche-noi" onclick="closeMobileMenu()">Chi siamo</a>
-      <a href="#aree" onclick="closeMobileMenu()">Aree</a>
+      <a href="assistenza-domiciliare.html" onclick="closeMobileMenu()">Assistenza domiciliare</a>
+      <a href="badante.html" onclick="closeMobileMenu()">Ricerca badante</a>
       <a href="#contatti" onclick="closeMobileMenu()">Contattaci</a>
     </div>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline poster="">
+    <video class="hero-video" autoplay muted loop playsinline>
       <source src="video/hero.mp4" type="video/mp4" />
     </video>
     <div class="hero-overlay"></div>
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <span class="badge">Assistenza domiciliare professionale</span>
-        <h1>Cura e presenza<br />quando più servono</h1>
-        <p>Badanti qualificate e selezionate per assistere i tuoi cari a casa, con umanità e professionalità. Attivi a <strong>Novi Ligure</strong>, <strong>Alessandria</strong> e <strong>Tortona</strong>.</p>
-        <div class="hero-cta">
-          <a href="tel:3460007334" class="btn btn-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            Chiama ora
-          </a>
-          <a href="#servizi" class="btn btn-secondary">Scopri i servizi</a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-card">
-          <div class="hero-card-icon">🤝</div>
-          <p class="hero-card-title">Disponibili 7 giorni su 7</p>
-          <p class="hero-card-sub">Inclusi festivi e notturni</p>
-        </div>
-        <div class="hero-card">
-          <div class="hero-card-icon">✅</div>
-          <p class="hero-card-title">Badanti verificate</p>
-          <p class="hero-card-sub">Selezione, referenze e formazione</p>
-        </div>
-        <div class="hero-card">
-          <div class="hero-card-icon">📍</div>
-          <p class="hero-card-title">3 province coperte</p>
-          <p class="hero-card-sub">Novi Ligure · Alessandria · Tortona</p>
-        </div>
+    <div class="container hero-inner hero-center">
+      <span class="badge">Alessandria · Novi Ligure · Tortona</span>
+      <h1>Assistenza anziani<br />a domicilio</h1>
+      <p>Professionisti selezionati per prendersi cura dei tuoi cari con competenza e umanità. Scegli il servizio più adatto alle tue esigenze.</p>
+      <div class="hero-cta hero-cta-center">
+        <a href="assistenza-domiciliare.html" class="btn btn-primary btn-lg">🏥 Assistenza domiciliare</a>
+        <a href="badante.html" class="btn btn-white btn-lg">🤝 Ricerca badante</a>
       </div>
     </div>
   </section>
 
-  <!-- SERVIZI -->
-  <section id="servizi" class="section section-light">
+  <!-- DUE SERVIZI -->
+  <section class="section section-light">
     <div class="container">
       <div class="section-header">
-        <h2>I nostri servizi</h2>
-        <p>Soluzioni flessibili per ogni esigenza di assistenza domiciliare</p>
+        <h2>Due servizi, un unico obiettivo</h2>
+        <p>Offriamo soluzioni complete per ogni fase dell'assistenza ai tuoi cari</p>
       </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon">🕐</div>
-          <h3>Badante a ore</h3>
-          <p>Assistenza durante le ore del giorno, calibrata sulle necessità quotidiane del tuo familiare. Ideale per supporto parziale.</p>
+      <div class="split-grid">
+        <div class="split-card split-blue">
+          <div class="split-icon">🏥</div>
+          <h3>Assistenza domiciliare</h3>
+          <p>Cure mediche e paramediche a domicilio: infermieri, fisioterapisti, OSS e assistenza post-ospedaliera. Per chi ha bisogno di supporto sanitario qualificato a casa propria.</p>
+          <ul class="split-list">
+            <li>✓ Assistenza infermieristica</li>
+            <li>✓ Fisioterapia domiciliare</li>
+            <li>✓ Assistenza post-operatoria</li>
+            <li>✓ Supporto OSS</li>
+          </ul>
+          <a href="assistenza-domiciliare.html" class="btn btn-primary">Scopri il servizio →</a>
         </div>
-        <div class="service-card">
-          <div class="service-icon">🏠</div>
-          <h3>Badante convivente</h3>
-          <p>La badante vive con l'assistito per una presenza continua e una relazione di fiducia duratura. Massima serenità per tutta la famiglia.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">🌙</div>
-          <h3>Assistenza notturna</h3>
-          <p>Presenza dedicata durante la notte per anziani o persone non autosufficienti che necessitano di supervisione e supporto nelle ore serali.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">💊</div>
-          <h3>Assistenza post-operatoria</h3>
-          <p>Supporto professionale nel periodo di recupero dopo un intervento chirurgico o un ricovero ospedaliero, per un ritorno sicuro a casa.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">🧓</div>
-          <h3>Compagnia anziani</h3>
-          <p>Presenza umana e stimolante per combattere la solitudine. Conversazione, passeggiate, attività quotidiane e piccole commissioni.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">♿</div>
-          <h3>Assistenza disabili</h3>
-          <p>Supporto specializzato per persone con disabilità fisiche o cognitive, con attenzione alla dignità, all'autonomia e alla qualità della vita.</p>
+        <div class="split-card split-green">
+          <div class="split-icon">🤝</div>
+          <h3>Ricerca badante</h3>
+          <p>Selezione e inserimento di badanti qualificate per l'assistenza quotidiana agli anziani. Badante a ore, convivente, notturna o per pochi giorni.</p>
+          <ul class="split-list">
+            <li>✓ Badante a ore</li>
+            <li>✓ Badante convivente</li>
+            <li>✓ Assistenza notturna</li>
+            <li>✓ Compagnia e supporto</li>
+          </ul>
+          <a href="badante.html" class="btn btn-accent">Trova la tua badante →</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- PERCHÉ NOI -->
-  <section id="perche-noi" class="section section-dark">
+  <section class="section section-dark">
     <div class="container">
       <div class="section-header light">
-        <h2>Perché scegliere SOS Badante</h2>
-        <p>Un servizio pensato per dare tranquillità alle famiglie e rispetto alle persone assistite</p>
+        <h2>Perché sceglierci</h2>
+        <p>Professionalità, risposta rapida e attenzione alla persona</p>
       </div>
       <div class="features-grid">
         <div class="feature">
           <div class="feature-num">01</div>
           <h3>Selezione rigorosa</h3>
-          <p>Ogni badante viene selezionata con colloqui approfonditi, verifica delle referenze e valutazione delle competenze.</p>
+          <p>Ogni professionista viene selezionato con colloqui approfonditi, verifica delle referenze e valutazione delle competenze.</p>
         </div>
         <div class="feature">
           <div class="feature-num">02</div>
-          <h3>Risposta rapida</h3>
-          <p>Contattaci e ti proponiamo una soluzione entro 24 ore. In caso di urgenza, interveniamo il prima possibile.</p>
+          <h3>Risposta in 24h</h3>
+          <p>Contattaci e ti proponiamo una soluzione entro 24 ore. In caso di urgenza interveniamo il prima possibile.</p>
         </div>
         <div class="feature">
           <div class="feature-num">03</div>
-          <h3>Affiancamento continuo</h3>
-          <p>Non lasciamo soli né la famiglia né la badante: seguiamo il percorso nel tempo e gestiamo eventuali sostituzioni.</p>
+          <h3>Copertura locale</h3>
+          <p>Operiamo ad Alessandria, Novi Ligure e Tortona con professionisti residenti nelle zone servite.</p>
         </div>
         <div class="feature">
           <div class="feature-num">04</div>
           <h3>Trasparenza totale</h3>
-          <p>Nessun costo nascosto. Prima del servizio ti spieghiamo chiaramente tariffe, modalità e impegni contrattuali.</p>
+          <p>Nessun costo nascosto. Tariffe chiare e contratti trasparenti prima di iniziare qualsiasi servizio.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AREE -->
-  <section id="aree" class="section section-light">
-    <div class="container">
-      <div class="section-header">
-        <h2>Dove operiamo</h2>
-        <p>Attualmente copriamo tre aree della provincia di Alessandria</p>
-      </div>
-      <div class="areas-grid">
-        <div class="area-card">
-          <div class="area-pin">📍</div>
-          <h3>Novi Ligure</h3>
-          <p>Città e comuni limitrofi dell'area novese</p>
-        </div>
-        <div class="area-card">
-          <div class="area-pin">📍</div>
-          <h3>Alessandria</h3>
-          <p>Capoluogo e cintura urbana alessandrina</p>
-        </div>
-        <div class="area-card">
-          <div class="area-pin">📍</div>
-          <h3>Tortona</h3>
-          <p>Città e comuni della zona tortonese</p>
-        </div>
-      </div>
-      <p class="areas-note">Non sei in queste zone? <a href="#contatti">Contattaci comunque</a> — valutiamo ogni richiesta.</p>
-    </div>
-  </section>
-
-  <!-- FORM RICHIESTA -->
-  <section id="richiesta" class="section section-light">
-    <div class="container">
-      <div class="section-header">
-        <h2>Trova la tua badante</h2>
-        <p>Raccontaci di cosa hai bisogno — ti contatteremo entro 24 ore con la soluzione più adatta</p>
-      </div>
-
-      <div class="wizard">
-        <!-- Progress bar -->
-        <div class="wizard-progress">
-          <div class="wizard-step-dot active" data-step="1">1</div>
-          <div class="wizard-line"></div>
-          <div class="wizard-step-dot" data-step="2">2</div>
-          <div class="wizard-line"></div>
-          <div class="wizard-step-dot" data-step="3">3</div>
-          <div class="wizard-line"></div>
-          <div class="wizard-step-dot" data-step="4">4</div>
-        </div>
-
-        <form id="wizardForm" onsubmit="submitWizard(event)">
-
-          <!-- STEP 1: Genere -->
-          <div class="wizard-panel active" data-panel="1">
-            <h3 class="wizard-title">Preferisci badante donna o badante uomo?</h3>
-            <div class="radio-group">
-              <label class="radio-card">
-                <input type="radio" name="genere" value="uomo" />
-                <span class="radio-box">
-                  <span class="radio-icon">👨</span>
-                  <span>Uomo</span>
-                </span>
-              </label>
-              <label class="radio-card">
-                <input type="radio" name="genere" value="donna" />
-                <span class="radio-box">
-                  <span class="radio-icon">👩</span>
-                  <span>Donna</span>
-                </span>
-              </label>
-              <label class="radio-card">
-                <input type="radio" name="genere" value="indifferente" checked />
-                <span class="radio-box">
-                  <span class="radio-icon">🤝</span>
-                  <span>Indifferente</span>
-                </span>
-              </label>
-            </div>
-          </div>
-
-          <!-- STEP 2: Attività -->
-          <div class="wizard-panel" data-panel="2">
-            <h3 class="wizard-title">Seleziona le attività che richiedi all'assistente:</h3>
-            <div class="activities-grid">
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="bagno" />
-                <span class="activity-box">
-                  <span class="activity-icon">🛁</span>
-                  <span>Fare il bagno</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="vestire" />
-                <span class="activity-box">
-                  <span class="activity-icon">👔</span>
-                  <span>Vestire e gestire</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="toilet" />
-                <span class="activity-box">
-                  <span class="activity-icon">🚿</span>
-                  <span>Toilet</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="farmaci" />
-                <span class="activity-box">
-                  <span class="activity-icon">💊</span>
-                  <span>Promemoria farmaci</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="cibi" />
-                <span class="activity-box">
-                  <span class="activity-icon">🍽️</span>
-                  <span>Preparazione cibi</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="spesa" />
-                <span class="activity-box">
-                  <span class="activity-icon">🛒</span>
-                  <span>Fare la spesa</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="mobilita" />
-                <span class="activity-box">
-                  <span class="activity-icon">♿</span>
-                  <span>Trasferimento e mobilità</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="trasporto" />
-                <span class="activity-box">
-                  <span class="activity-icon">🚗</span>
-                  <span>Trasporto</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="pulizia" />
-                <span class="activity-box">
-                  <span class="activity-icon">🧹</span>
-                  <span>Pulizia della casa</span>
-                </span>
-              </label>
-              <label class="activity-card">
-                <input type="checkbox" name="attivita" value="compagnia" />
-                <span class="activity-box">
-                  <span class="activity-icon">🫂</span>
-                  <span>Compagnia</span>
-                </span>
-              </label>
-            </div>
-          </div>
-
-          <!-- STEP 3: Quando + notte -->
-          <div class="wizard-panel" data-panel="3">
-            <h3 class="wizard-title">Quando è richiesta l'assistenza?</h3>
-            <div class="radio-group vertical">
-              <label class="radio-card wide">
-                <input type="radio" name="quando" value="lun-ven" />
-                <span class="radio-box"><span>Da lunedì a venerdì</span></span>
-              </label>
-              <label class="radio-card wide">
-                <input type="radio" name="quando" value="lun-sab" />
-                <span class="radio-box"><span>Da lunedì al sabato</span></span>
-              </label>
-              <label class="radio-card wide">
-                <input type="radio" name="quando" value="convivenza" />
-                <span class="radio-box"><span>L'intera settimana (convivenza)</span></span>
-              </label>
-              <label class="radio-card wide">
-                <input type="radio" name="quando" value="weekend" />
-                <span class="radio-box"><span>Solo i weekend</span></span>
-              </label>
-              <label class="radio-card wide">
-                <input type="radio" name="quando" value="pochi-giorni" />
-                <span class="radio-box"><span>Pochi giorni</span></span>
-              </label>
-              <label class="radio-card wide">
-                <input type="radio" name="quando" value="poche-ore" />
-                <span class="radio-box"><span>Solo poche ore</span></span>
-              </label>
-            </div>
-            <h3 class="wizard-title" style="margin-top:32px;">Disponibilità notturna?</h3>
-            <div class="radio-group">
-              <label class="radio-card">
-                <input type="radio" name="notte" value="si" />
-                <span class="radio-box"><span class="radio-icon">🌙</span><span>Sì</span></span>
-              </label>
-              <label class="radio-card">
-                <input type="radio" name="notte" value="no" checked />
-                <span class="radio-box"><span class="radio-icon">☀️</span><span>No</span></span>
-              </label>
-            </div>
-          </div>
-
-          <!-- STEP 4: Contatti -->
-          <div class="wizard-panel" data-panel="4">
-            <h3 class="wizard-title">Come ti contatttiamo?</h3>
-            <div class="form-grid">
-              <div class="form-field">
-                <label>Nome e cognome *</label>
-                <input type="text" name="nome" placeholder="Mario Rossi" required />
-              </div>
-              <div class="form-field">
-                <label>Telefono *</label>
-                <input type="tel" name="telefono" placeholder="347 0000000" required />
-              </div>
-              <div class="form-field full">
-                <label>Email</label>
-                <input type="email" name="email" placeholder="mario@email.com" />
-              </div>
-              <div class="form-field full">
-                <label>Descrivi brevemente la persona da assistere (opzionale)</label>
-                <textarea name="descrizione" rows="4" placeholder="Età, condizioni di salute, esigenze particolari..."></textarea>
-              </div>
-            </div>
-          </div>
-
-          <!-- SUCCESS -->
-          <div class="wizard-panel" data-panel="5">
-            <div class="wizard-success">
-              <div class="success-icon">✅</div>
-              <h3>Richiesta inviata!</h3>
-              <p>Ti contatteremo entro 24 ore al numero o email che hai indicato.</p>
-              <a href="tel:3460007334" class="btn btn-primary" style="margin-top:16px;">Vuoi chiamarci subito?</a>
-            </div>
-          </div>
-
-          <!-- Navigazione -->
-          <div class="wizard-nav" id="wizardNav">
-            <button type="button" class="btn btn-secondary" id="btnBack" onclick="wizardBack()" style="display:none">← Indietro</button>
-            <button type="button" class="btn btn-primary" id="btnNext" onclick="wizardNext()">Avanti →</button>
-            <button type="submit" class="btn btn-primary" id="btnSubmit" style="display:none">Invia richiesta</button>
-          </div>
-
-        </form>
       </div>
     </div>
   </section>
@@ -395,7 +138,7 @@
     <div class="container">
       <div class="section-header light">
         <h2>Contattaci subito</h2>
-        <p>Siamo disponibili per rispondere a ogni tua domanda e trovare insieme la soluzione migliore</p>
+        <p>Siamo disponibili per rispondere a ogni tua domanda</p>
       </div>
       <div class="contact-grid">
         <a href="tel:3460007334" class="contact-card">
@@ -420,14 +163,13 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
-      <span class="logo">SOS<span>Badante</span></span>
-      <p>© 2025 SOS Badante — Assistenza domiciliare a Novi Ligure, Alessandria e Tortona</p>
+      <span class="logo">Assistenza<span>Anziani</span><em>AL</em></span>
+      <p>© 2025 Assistenza Anziani Alessandria — Novi Ligure · Alessandria · Tortona</p>
       <div class="footer-links">
-        <a href="mailto:ephadita@protonmail.com">ephadita@protonmail.com</a>
-        <a href="tel:3460007334">346 000 7334</a>
+        <a href="assistenza-domiciliare.html">Assistenza domiciliare</a>
+        <a href="badante.html">Ricerca badante</a>
       </div>
     </div>
   </footer>
