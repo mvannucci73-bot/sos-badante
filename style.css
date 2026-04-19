@@ -296,3 +296,7 @@ body { font-family: var(--font); color: var(--text); background: var(--white); l
   .hero-center { text-align: left; }
   .hero-cta-center { justify-content: flex-start; }
 }
+
+/* LOGO IMG */
+.logo-img { display: flex; align-items: center; text-decoration: none; }
+.logo-img img { display: block; }

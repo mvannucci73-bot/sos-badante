@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <!-- Icon: house with heart -->
+  <circle cx="30" cy="30" r="28" fill="#1d6fa4"/>
+  <!-- House shape -->
+  <polygon points="30,10 50,26 50,48 10,48 10,26" fill="none" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Roof peak -->
+  <polyline points="10,26 30,10 50,26" fill="none" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Heart inside house -->
+  <path d="M24,30 C24,27 26,25 28,26 C29,26.5 30,28 30,28 C30,28 31,26.5 32,26 C34,25 36,27 36,30 C36,33 30,38 30,38 C30,38 24,33 24,30 Z" fill="#2ecc71"/>
+
+  <!-- Text: Assistenza Anziani -->
+  <text x="68" y="24" font-family="Inter, sans-serif" font-weight="800" font-size="15" fill="#1a2332" letter-spacing="-0.3">Assistenza</text>
+  <text x="68" y="42" font-family="Inter, sans-serif" font-weight="800" font-size="15" fill="#1a2332" letter-spacing="-0.3">Anziani</text>
+  <!-- AL badge -->
+  <rect x="195" y="28" width="30" height="18" rx="4" fill="#2ecc71"/>
+  <text x="210" y="41" font-family="Inter, sans-serif" font-weight="800" font-size="13" fill="white" text-anchor="middle" letter-spacing="0.5">AL</text>
+</svg>
